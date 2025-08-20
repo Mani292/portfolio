@@ -143,34 +143,34 @@
 
         .cta-button::before {
             content: '';
-            position: absolute;
-            top: 0;
-            left: -100%;
+OBOB            position: absolute;
+OBOBOBOB            top: 0;
+OBOBOB            left: -100%;
             width: 100%;
-            height: 100%;
-            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
-            transition: left 0.5s ease;
-        }
+OBOBOBOBOBOBOBOBOBOBOBOBOB            height: 100%;
+OBOBOBOBOB            background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+OBOBOBOBOBOB            transition: left 0.5s ease;
+OBOBOBOBOBOB        }
 
-        .cta-button:hover::before {
+OBOBOBOBOBOBOB        .cta-button:hover::before {
             left: 100%;
         }
-
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB
         .cta-button:hover {
-            transform: translateY(-3px);
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB            transform: translateY(-3px);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-        }
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB        }
 
-        /* Floating Elements */
+OBOBOBOBOBOBOB        /* Floating Elements */
         .floating-element {
             position: absolute;
             opacity: 0.1;
-            animation: float 6s ease-in-out infinite;
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB            animation: float 6s ease-in-out infinite;
         }
-
+OBOB
         .floating-element:nth-child(1) { top: 10%; left: 10%; animation-delay: 0s; }
         .floating-element:nth-child(2) { top: 20%; right: 10%; animation-delay: 2s; }
-        .floating-element:nth-child(3) { bottom: 20%; left: 20%; animation-delay: 4s; }
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB        .floating-element:nth-child(3) { bottom: 20%; left: 20%; animation-delay: 4s; }
 
         /* Sections */
         .section {
@@ -182,59 +182,59 @@
             background: rgba(0, 0, 0, 0.1);
         }
 
-        .section h2 {
+OBOBOBOBOBOBOBOBOBOBOBOBOBOB        .section h2 {
             font-size: 3rem;
-            text-align: center;
-            margin-bottom: 3rem;
-            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+OBOBOBOBOB            text-align: center;
+OBOBOBOBOB            margin-bottom: 3rem;
+OBOBOBOBOBOB            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-        }
-
+OBOBOBOBOBOBOBOBOBOBOBOBOBOB        }
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB
         /* About Section */
-        .about-content {
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB        .about-content {
             display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 4rem;
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB            grid-template-columns: 1fr 2fr;
+OB            gap: 4rem;
             align-items: center;
-        }
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB        }
 
-        .profile-image {
+OBOBOBOBOBOBOBOBOBOBOBOBOB        .profile-image {
             width: 300px;
             height: 300px;
             border-radius: 50%;
             background: linear-gradient(45deg, #ff6b6b, #ffd93d);
             display: flex;
             align-items: center;
-            justify-content: center;
-            font-size: 6rem;
+OBOB            justify-content: center;
+OBOBOB            font-size: 6rem;
             margin: 0 auto;
-            animation: pulse 2s ease-in-out infinite;
-        }
-
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB            animation: pulse 2s ease-in-out infinite;
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB        }
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB
         .about-text {
-            font-size: 1.2rem;
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB            font-size: 1.2rem;
             line-height: 1.8;
-        }
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB        }
 
-        /* Skills Section */
+OBOBOBOBOBOB        /* Skills Section */
         .skills-grid {
-            display: grid;
+OBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOBOB            display: grid;
             grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 2rem;
+OBOB            gap: 2rem;
             margin-top: 3rem;
-        }
+OBOBOBOBOBOBOBOBOB        }
 
-        .skill-card {
+OBOBOBOBOBOBOBOBOBOBOB        .skill-card {
             background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            padding: 2rem;
-            border-radius: 20px;
+OBOB            backdrop-filter: blur(10px);
+OBOBOBOBOBOB            padding: 2rem;
+OB            border-radius: 20px;
             text-align: center;
-            transition: all 0.3s ease;
+OBOBOBOB            transition: all 0.3s ease;
             border: 1px solid rgba(255, 255, 255, 0.2);
-        }
+OBOB        }
 
         .skill-card:hover {
             transform: translateY(-10px);
@@ -259,7 +259,7 @@
         }
 
         .project-card {
-            background: rgba(255, 255, 255, 0.1);
+OA            background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             border-radius: 20px;
             overflow: hidden;
@@ -268,39 +268,39 @@
         }
 
         .project-card:hover {
-            transform: scale(1.05);
+OAOAOAOAOAOAOA            transform: scale(1.05);
             box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
-        }
-
+OAOA        }
+OAOA
         .project-image {
-            height: 200px;
-            background: linear-gradient(45deg, #667eea, #764ba2);
+OAOAOA            height: 200px;
+OAOA            background: linear-gradient(45deg, #667eea, #764ba2);
             display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: white;
+OA            align-items: center;
+OA            justify-content: center;
+OA            font-size: 3rem;
+OA            color: white;
         }
-
+OA
         .project-content {
             padding: 2rem;
-        }
-
-        .project-title {
+OAOA        }
+OA
+OA        .project-title {
             font-size: 1.5rem;
             margin-bottom: 1rem;
-            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
+OAOA            background: linear-gradient(45deg, #ff6b6b, #ffd93d);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            background-clip: text;
+OA            background-clip: text;
         }
-
-        /* Contact Section */
+OA
+OA        /* Contact Section */
         .contact-form {
             max-width: 600px;
-            margin: 0 auto;
+OA            margin: 0 auto;
             background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
+OA            backdrop-filter: blur(10px);
             padding: 3rem;
             border-radius: 20px;
             border: 1px solid rgba(255, 255, 255, 0.2);
@@ -314,18 +314,18 @@
         .form-group textarea {
             width: 100%;
             padding: 15px;
-            background: rgba(255, 255, 255, 0.1);
-            border: 1px solid rgba(255, 255, 255, 0.3);
-            border-radius: 10px;
-            color: white;
+OAOA            background: rgba(255, 255, 255, 0.1);
+OAOAOAOAOA            border: 1px solid rgba(255, 255, 255, 0.3);
+OAOAOAOA            border-radius: 10px;
+OAOA            color: white;
             font-size: 1rem;
         }
-
-        .form-group input::placeholder,
-        .form-group textarea::placeholder {
-            color: rgba(255, 255, 255, 0.7);
+OAOAOAOAOAOA
+OA        .form-group input::placeholder,
+OA        .form-group textarea::placeholder {
+OA            color: rgba(255, 255, 255, 0.7);
         }
-
+OA
         .submit-btn {
             width: 100%;
             padding: 15px;
@@ -380,12 +380,12 @@
                 transform: translateY(0);
             }
         }
-
+OA
         @keyframes float {
             0%, 100% { transform: translateY(0) rotate(0deg); }
             50% { transform: translateY(-20px) rotate(180deg); }
         }
-
+OA
         @keyframes pulse {
             0%, 100% { transform: scale(1); }
             50% { transform: scale(1.05); }
@@ -393,7 +393,7 @@
 
         /* Responsive */
         @media (max-width: 768px) {
-            .nav-links {
+OA            .nav-links {
                 display: none;
             }
             
@@ -403,7 +403,7 @@
             
             .about-content {
                 grid-template-columns: 1fr;
-                text-align: center;
+OA                text-align: center;
             }
             
             .section h2 {
@@ -412,17 +412,17 @@
         }
     </style>
 </head>
-<body>
+OA<body>
     <!-- Navigation -->
     <nav id="navbar">
         <div class="container">
-            <div class="nav-container">
+OA            <div class="nav-container">
                 <div class="logo">AJ</div>
                 <ul class="nav-links">
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Projects</a></li>
+OA                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#contact">Contact</a></li>
                 </ul>
             </div>
